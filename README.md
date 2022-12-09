@@ -33,6 +33,8 @@ rostopic pub /ardrone/takeoff std_msgs/Empty "{}"
 
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
+Controle o drone pelos botões indicados no terminal do teleop_twist_keyboard
+
 # Executar ORB-SLAM3
 
 roslaunch orb_slam3_ros_wrapper euroc_mono.launch 
